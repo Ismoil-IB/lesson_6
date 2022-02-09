@@ -1,0 +1,138 @@
+@import "null.css";
+
+@font-face {
+    font-family: 'Grand Hotel';
+    src: url('../fonts/GrandHotel-Regular.woff2') format('woff2'),
+        url('../fonts/GrandHotel-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: 'Grand Hotel';
+}
+
+.block {
+	font-size: 40px;
+	margin: 20px 30px;
+	border: 10px solid #1ba761;
+	color: #1ba761;
+}
+.block1 {
+	font-size: 40px;
+	margin: 30px 40px;
+	border-bottom: 10px solid #23abd4;
+	border-top: 10px solid #23abd4;
+	color: #274dca;
+	border-radius: 10%;
+	padding: 15px 0;
+}
+.block2 {
+	font-size: 45px;
+	margin: 30px 40px;
+	border-left: 20px solid #d423d4;
+	border-right: 20px solid #d4b323;
+	color: #a56488;
+	border-radius: 50%;
+	padding: 100px 200px;
+	line-height: 1.2;
+}
+.block3 {
+	font-size: 45px;
+	margin: 30px 40px;
+	outline: 10px dashed #e989be;
+	color: #a56488;
+	border-radius: 40%;
+	padding: 140px 100px;
+	line-height: 1.2;
+}
+.block4 {
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+}
+.block5 {
+	display: inline-block;
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(135, 250, 4);
+	border-radius: 100% 0% 0% 0%;
+}
+.block6 {
+	display: inline-block;
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(135, 250, 4);
+	border-radius: 0% 100% 0% 0%;
+}
+.block7 {
+	display: inline-block;
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(135, 250, 4);
+	border-radius: 0% 0% 0% 100%;
+}
+.block8 {
+	display: inline-block;
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(135, 250, 4);
+	border-radius: 0% 0% 100% 0%;
+}
+.block9 {
+	margin: 30px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(253, 249, 0);
+	border-radius: 100% 15% 100% 15%;
+	box-shadow: 10px 10px 10px 10px #10ce20, -10px -10px 10px 10px #ff0909;
+}
+.span {
+	font-size: 45px;
+	margin: 30px 40px;
+	outline: 10px dashed #5dda23;
+	color: #0d9153;
+	border-radius: 40%;
+	line-height: 1.2;
+}
+.span1 {
+	font-size: 45px;
+	margin: 30px 40px;
+	outline: 10px dashed #e989be;
+	color: #a56488;
+	border-radius: 40%;
+	line-height: 1.2;
+}
+.span2 {
+	opacity: 0;
+	margin: 30px 0;
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color: rgb(198, 245, 153);
+}
+.span3 {
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color: rgb(241, 223, 172);
+}
+
+.span4 {
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color: rgb(151, 228, 164);
+}
